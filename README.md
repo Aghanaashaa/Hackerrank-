@@ -1,2 +1,2 @@
 # Hackerrank
-Hacckerank Solutions for different challanges 
+Hacckerank Solutions for different challanges.
