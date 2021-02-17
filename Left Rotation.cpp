@@ -1,11 +1,8 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
 string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
-
 /*
  * Complete the 'rotateLeft' function below.
  *
@@ -14,7 +11,6 @@ vector<string> split(const string &);
  *  1. INTEGER d
  *  2. INTEGER_ARRAY arr
  */
-
 vector<int> rotateLeft(int d, vector<int> arr) {
     for(int i = 0; i < d; ++i) {
         arr.push_back(arr.front());
@@ -75,7 +71,6 @@ string ltrim(const string &str) {
 
     return s;
 }
-
 string rtrim(const string &str) {
     string s(str);
 
